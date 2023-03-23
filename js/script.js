@@ -64,11 +64,11 @@ setImagesInCards(){
     
     const clickedCard = e.target;
 
-    if (this.cantplay && !clickedCard.classList.contains("open")) {
+    //if (this.cantplay && !clickedCard.classList.contains("open")) {
 
         clickedCard.classList.add("open");
         this.checkPair( clickedCard.dataset.image );
-    }
+   // }
 
   }
 

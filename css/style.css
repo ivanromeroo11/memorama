@@ -38,7 +38,8 @@ figure:hover::after{
     background: rgb(255, 255, 255, 0.137);
 }
 figure.open{
-    transform: perspective(600px) rotateY(180deg);
+    transform: perspective(1200px) rotateY(180deg);
+    z-index: 0;
     
 }
 figure .back{
@@ -49,8 +50,9 @@ figure .back{
 figure .searchimage{
     position: absolute;
     top: 0;
-    transform: perspective(600px) rotateY(180deg);
+    transform: perspective(1200px) rotateY(0deg);
     overflow: hidden;
     height: 100%;
+    z-index: -1;
 }
 
